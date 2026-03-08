@@ -1,0 +1,46 @@
+.demo-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.demo-btn:hover {
+  background: #535bf2;
+}
+
+.demo-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.demo-results {
+  text-align: left;
+}
+
+.demo-step {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.demo-step h3 {
+  font-size: 0.9rem;
+  color: #646cff;
+  margin: 0 0 0.5rem;
+  text-transform: capitalize;
+}
+
+.demo-step pre {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  overflow-x: auto;
+  margin: 0;
+  white-space: pre-wrap;
+}
